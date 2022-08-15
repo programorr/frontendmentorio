@@ -1,0 +1,154 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: #e0e8ff;
+    background-repeat: no-repeat;
+    background-image: url('https://javascriptooo.github.io/fe-mentor-order-summary-component/images/pattern-background-desktop.svg');
+}
+
+main {
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 28px;
+    margin: 10px;
+    color: #1F2E55;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    text-align: center;
+    margin: 10px 10px 20px 10px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+    color: #717FA6;
+}
+
+.main-box {
+    background: #ffffff;
+    height: 700px;
+    box-shadow: 0 40px 40px -20px rgba(13, 48, 189, 0.151826);
+    border-radius: 20px;
+
+}
+
+.hero-image {
+    background-image: url("images/illustration-hero.svg");
+    height: 220px;
+    border-radius: 20px 20px 0 0;
+}
+
+.text-box {
+    padding: 25px 48px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-box {
+    background: #F7F9FF;
+    border-radius: 11px;
+    width: 100%;
+    text-align: center;
+}
+
+.plan-box:hover {
+    background: #ebf0ff;
+    cursor: pointer;
+}
+
+.annual-plan-box {
+    height: 48px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#icon-music {
+    text-align: left;
+    padding-right: 15px;
+}
+
+.plan-details {
+    width: 150px;
+    text-align: left;
+
+}
+
+.annual-plan {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.per-year {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.change-plan {
+    width: 100px;
+    text-align: right;
+    vertical-align: center;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#payment-button {
+    height: 50px;
+    width: 100%;
+    margin: 32px;
+    border: none;
+    background: #382AE1;
+    box-shadow: 0 20px 20px rgba(56, 42, 225, 0.190291);
+    border-radius: 11px;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+#payment-button:active {
+    transform: translateY(4px);
+    cursor: pointer;
+}
+
+#payment-button:hover {
+    cursor: pointer;
+}
+
+#cancel-button {
+    background: none;
+    border: none;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
+}
+
+#cancel-button:hover {
+    color: #1F2E55;
+    cursor: pointer;
+}
+
+#cancel-button:active {
+    transform: translateY(4px);
+}
