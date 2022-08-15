@@ -1,0 +1,144 @@
+* {
+    box-sizing :border-box;
+}
+
+body {
+    font-family: 'Kumbh Sans', sans-serif;
+    /*background-image: url("images/bg-desktop-background.jpg");*/
+    /*background-size: cover;*/
+    background-color: #1aa1ad;
+    background-image: url("images/bg-pattern-top.svg"), url("images/bg-pattern-bottom.svg") ;
+    Background-repeat: no-repeat;
+    Background-position: top -400px left -400px, bottom -400px right -400px;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 400px) {
+
+    main {
+        background-color: white;
+        width: 325px;
+        height: 375px;
+        border-radius: 15px;
+        box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    }
+
+    .profile-picture {
+        position: absolute;
+        transform: translate(115px, 90px);
+        height: 96px;
+        width: 96px;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+
+
+}
+
+@media only screen and (min-width: 400px) {
+
+    main {
+        background-color: white;
+        width: 350px;
+        height: 375px;
+        border-radius: 15px;
+        box-shadow: 0 50px 100px -20px rgba(8, 70, 94, 0.504835);
+    }
+
+    .profile-picture {
+        position: absolute;
+        transform: translate(125px, 90px);
+        height: 96px;
+        width: 96px;
+        border: 5px solid white;
+        border-radius: 50%;
+    }
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    /*padding: 0;*/
+}
+
+.profile-background {
+    /*border: 2px dashed green;*/
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    /*padding: 0;*/
+}
+
+.profile-details {
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*border: 2px dashed red;*/
+    /*width: 100%;*/
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.profile-features {
+    margin: 0;
+}
+
+.profile-name {
+    margin: 4px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.profile-age {
+    margin: 4px ;
+    font-weight: normal;
+    font-size: 18px;
+    color: #6B7082;
+}
+
+.profile-location {
+    margin-top: 5px;
+    color: #6B7082;
+}
+
+.divider {
+    width: 100%;
+    background-color: #E8E9EC;
+    height: 1px;
+    border: none;
+}
+
+.social-details {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+}
+
+.social-followers, .social-likes, .social-photos {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-number {
+    color: #2E3349;
+    font-weight: bold;
+    font-size: 18px;
+}
+.social-label {
+    color: #6B7082;
+    font-weight: normal;
+    font-size: 10px;
+    padding: 8px;
+}
