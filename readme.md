@@ -2,5 +2,10 @@
 
 Front End Mentor Projects
 
-1. [QR Code Component](https://fe-mentor-qr-code-component.netlify.app/)
-2. [Profile Card Component](https://fe-mentor-profile-card-component-main.netlify.app/)
+Challenges
+1. [QR Code Component]()
+2. [Order Summary Component](https://jsooo-fe-mentor-order-summary-comp.netlify.app/)
+3. [Product Review Card]()
+4. [NFT Preview Card Component](https://jsooo-fe-mentor-nft-preview-card.netlify.app/)
+5. [Profile Card Component]()
+6. [Skilled E-Learning Landing Page]() - In Progress
