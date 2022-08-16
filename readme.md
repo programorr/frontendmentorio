@@ -1,4 +1,4 @@
-# frontendmentorio
+# FrontEndMentor.io
 
 Front End Mentor Projects
 
